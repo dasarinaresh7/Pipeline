@@ -5,6 +5,6 @@ git 'https://github.com/dasarinaresh7/Pipeline/'
 stage('Compile-Package'){
 //Get maven home path
 def mvnHome = tool name 'maven-3', type: 'maven'
-sh "${mavnHome}/bin/mvn package"
+bat "${mavnHome}/bin/mvn package"
 }
 }
