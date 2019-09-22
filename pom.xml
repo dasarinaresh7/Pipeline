@@ -76,7 +76,7 @@
                 </executions>
             </plugin>
             <!-- CODE COVERAGE -->
-           <!-- <plugin>
+            <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.7.2.201409121644</version>
@@ -96,7 +96,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>  --?
+            </plugin>
 
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
